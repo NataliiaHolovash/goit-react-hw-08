@@ -1,0 +1,31 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 18px;
+    color: #333;
+}
+
+.linkBtn {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.linkBtn:hover {
+    text-decoration: underline;
+}

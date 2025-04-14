@@ -1,0 +1,20 @@
+.navBar {
+    display: flex;
+    gap: 12px;
+}
+
+.navBtn {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navBtn:hover,
+.navBtn:focus {
+    background-color: #303f9f;
+    transform: translateY(-1px);
+}
